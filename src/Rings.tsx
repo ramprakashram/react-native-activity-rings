@@ -17,7 +17,6 @@ type RingsProps = {
 };
 
 const Rings = ({ size, pie, data, theme, opacity }: RingsProps) => {
-  const alpha = opacity ? "33" : "";
   return (
     <G>
       {pie.map((ring: Pie, idx: number) => {
@@ -34,7 +33,7 @@ const Rings = ({ size, pie, data, theme, opacity }: RingsProps) => {
             strokeLinecap="round"
             strokeLinejoin="round"
             d={ring.curves[0].sector.path.print()}
-            stroke={`${ringColor}${alpha}`}
+            stroke={`${ringColor}`}
             strokeWidth={size}
           />
         );
