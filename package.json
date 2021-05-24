@@ -1,7 +1,7 @@
 {
-  "name": "react-native-activity-rings",
+  "name": "pq-react-native-activity-rings",
   "version": "1.1.2",
-  "description": "Activity Rings & Progress Chart for React Native.",
+  "description": "Activity Rings & Progress Chart for React Native. This is an fork of react-native-activity-rings",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -16,9 +16,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thecodehunter/react-native-activity-rings.git"
+    "url": "git+https://github.com/ramprakashram/react-native-activity-rings"
   },
-  "author": "martin@sagas.tech",
+  "author": "connect2ramprakash@gmail.com",
   "license": "MIT",
   "peerDependencies": {
     "react": "> 16.7.0",
@@ -53,7 +53,7 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/thecodehunter/react-native-activity-rings/issues"
+    "url": "https://github.com/ramprakashram/react-native-activity-rings/issues"
   },
-  "homepage": "https://github.com/thecodehunter/react-native-activity-rings#readme"
+  "homepage": "https://github.com/ramprakashram/react-native-activity-rings#readme"
 }
